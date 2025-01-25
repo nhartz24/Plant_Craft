@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a62004bc30d409b989f2813f4b6efa, type: 3}
+  m_Name: pea_plant
+  m_EditorClassIdentifier: 
+  plantName: Pea Plant
+  menuImage: {fileID: 21300000, guid: bd081713361a54e7bbd726dec774fe08, type: 3}
+  templateObject: {fileID: 6382305565349265185, guid: 86cff60449c704ca3b42a6978c6cc6ad, type: 3}
+  attackTrait: None
+  biomeTrait: Forest
+  powerLvl: 1
+  price: 10
+  nutrientAmount: 2
+  productionSpeed: 1

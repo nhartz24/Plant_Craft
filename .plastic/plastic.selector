@@ -1,0 +1,3 @@
+rep "Great_Trait@IDEA350_Spring_2023@cloud"
+  path "/"
+    smartbranch "/main"

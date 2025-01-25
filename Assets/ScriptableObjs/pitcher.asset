@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a62004bc30d409b989f2813f4b6efa, type: 3}
+  m_Name: pitcher
+  m_EditorClassIdentifier: 
+  plantName: Pitcher
+  menuImage: {fileID: 21300000, guid: a5d867db14d1c8849bdb900ca0ec7ae5, type: 3}
+  templateObject: {fileID: 2232469505721221760, guid: d7e2095622132447eb7b03c9ac2348b4, type: 3}
+  attackTrait: Carnivorous
+  biomeTrait: Swamp
+  powerLvl: 1
+  price: 25
+  nutrientAmount: 5
+  productionSpeed: 0

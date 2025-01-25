@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7291675670333385719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7291675670333385716}
+  - component: {fileID: 7291675670333385717}
+  - component: {fileID: 7291675670333385718}
+  m_Layer: 0
+  m_Name: TestPlantDictObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7291675670333385716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7291675670333385719}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.03743824, y: 0.5720875, z: -10.192766}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7291675670333385717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7291675670333385719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ef99a2367f4f64b95ac92a48a8b015, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Plants: []
+  keys:
+  - pea_plant
+  - lily_of_the_valley
+  - onion
+  - cactus
+  - venus_fly_trap
+  - pitcher
+  - lily_of_the_valley+pea_plant
+  - onion+pea_plant
+  - cactus+pea_plant
+  - lily_of_the_valley+onion
+  - cactus+lily_of_the_valley
+  - lily_of_the_valley+venus_fly_trap
+  - lily_of_the_valley+pitcher
+  - cactus+onion
+  - onion+venus_fly_trap
+  - onion+pitcher
+  - cactus+venus_fly_trap
+  - cactus+pitcher
+  - pitcher+venus_fly_trap
+  pics:
+  - {fileID: 21300000, guid: bd081713361a54e7bbd726dec774fe08, type: 3}
+  - {fileID: 21300000, guid: 69baf3e2584ff4619acb11d7fbce9fb7, type: 3}
+  - {fileID: 21300000, guid: f1bd0d7f6462640c5a7eecac309afbcf, type: 3}
+  - {fileID: 21300000, guid: 92f13bca559d6488ab66e809c1cda1f8, type: 3}
+  - {fileID: 21300000, guid: 065c2233ab5a944df822bb06ea21fd50, type: 3}
+  - {fileID: 21300000, guid: 515ef1ad084f4407c9b14a8c2d20831f, type: 3}
+  - {fileID: 21300000, guid: e9a293296dfab46b08c170da001dc776, type: 3}
+  - {fileID: 21300000, guid: d4c7f02633226458dbeefc68af24e4fd, type: 3}
+  - {fileID: 21300000, guid: 7dc0500b62d7d4221b810aca985b6908, type: 3}
+  - {fileID: 21300000, guid: 3705068f6662e104a8d225dc24104a16, type: 3}
+  - {fileID: 21300000, guid: 69204e105283746699795eb771c78790, type: 3}
+  - {fileID: 21300000, guid: eb0776deb01d24765b7347850678a919, type: 3}
+  - {fileID: 21300000, guid: ad00723b88a674fde938ccccef7ae4aa, type: 3}
+  - {fileID: 21300000, guid: 9c929c814c89acb4ca48498a55ef570e, type: 3}
+  - {fileID: 21300000, guid: 78f43176202ea9b4e96b5890a0daff6c, type: 3}
+  - {fileID: 21300000, guid: 61a54eee5869b414b93fa3d5caab716d, type: 3}
+  - {fileID: 21300000, guid: ceae22fea0a0042d39135e75abd8c9f3, type: 3}
+  - {fileID: 21300000, guid: d4626dc5c1945466f8b61f21dd546b83, type: 3}
+  - {fileID: 21300000, guid: 515ef1ad084f4407c9b14a8c2d20831f, type: 3}
+  prefabs:
+  - {fileID: 8611695307498571634, guid: 23c0a86cd648f41baa372ace0a0c2b0c, type: 3}
+  - {fileID: 8611695307498571634, guid: e37c0788d208341da95e1ad777943914, type: 3}
+  - {fileID: 9082818130596134961, guid: fdd5e372e5abd4e3ab7dc158002b4d8b, type: 3}
+  - {fileID: 6064791250216681538, guid: a37a3100711894690b4c307a8852569d, type: 3}
+  - {fileID: 8611695307498571634, guid: 00eddf9087d26479b9e340c2319c2016, type: 3}
+  - {fileID: 87849995123071340, guid: 80afd6233aacd459ea9be1ce4953b900, type: 3}
+  - {fileID: 1823972983015548615, guid: be82bccdbc7484331926292b3cc727bc, type: 3}
+  - {fileID: 9189226996578255927, guid: ce96d908790614cf4a23f3b060412a8f, type: 3}
+  - {fileID: 3068433347110231459, guid: f77a20afe1d084737b67c5e3cc8cb5d1, type: 3}
+  - {fileID: 8365623648160752843, guid: 4e5257fc109ce413784c6f4353c34d0a, type: 3}
+  - {fileID: 7407512583739648497, guid: 2b9523aee256841459f13dcbcf325c42, type: 3}
+  - {fileID: 5571601965091489956, guid: 118c17850f1064cefba1019b039b88a8, type: 3}
+  - {fileID: 4099403464965699832, guid: 8c19bdcbca2f543509315a290b793622, type: 3}
+  - {fileID: 5982118190908731126, guid: 5b9459dac79824c62b2360624cd7108c, type: 3}
+  - {fileID: 6116472819407949280, guid: 890b94cb769f24560b7d78d91f29442d, type: 3}
+  - {fileID: 6878280818678680973, guid: 19daa3cfa762144eeb5a96bc8b14b758, type: 3}
+  - {fileID: 1400044806609145350, guid: 7300e27ce02c24f5c8a5bcb6406e9bc4, type: 3}
+  - {fileID: 5994479107415395805, guid: 18f8c479c4c50413aaa63fe48008a9d7, type: 3}
+  - {fileID: 87849995123071340, guid: 80afd6233aacd459ea9be1ce4953b900, type: 3}
+  descriptions:
+  - "COMMON NATURAL PLANT\r\nThe Pea takes nutrients from the soil that can be used
+    to buy more plants!\r"
+  - "COMMON NATURAL PLANT\r\nThe Lily of the Valley inflicts enemies with a powerful
+    poison. Dont touch it!\r"
+  - "COMMON NATURAL PLANT\r\nThe Onion is unappealing to plants. It's vapors will
+    make you cry!\r"
+  - "COMMON NATURAL PLANT\r\nThe Cactus can survive in the desert by storing water
+    inside itself. It hurts enemies close to it with its thorns!\r"
+  - '<color=#FFF333>UNCOMMON NATURAL PLANT</color>
+
+    The Venus Fly Trap thrives
+    in the swamp and eats enemies to make more nutrients. Gross!
+
+'
+  - "<color=#FFF333>UNCOMMON NATURAL PLANT</color>\r\nThe Pitcher Plant thrives in
+    the swamp and lures enemies into its flowers and digests them to make more nutrients.
+    Weird!\r"
+  - '<color=#EFE213>UNCOMMON IMAGINARY PLANT</color>
+
+    This Pea Lily (Pily?)
+    has the poisonous flowers of the Lily and can create nutrients from the soil
+    like the Pea.
+
+'
+  - '<color=#EFE213>UNCOMMON IMAGINARY PLANT</color>
+
+    This Pea Onion (Ponion?)
+    has the Onions stinky outside but roots that create nutrients like the Pea Plant!
+
+'
+  - "<color=#F5A820>RARE IMAGINARY PLANT</color>\r\nThis Pea Cactus (Cactpea?) can
+    survive in the desert by storing water in itself and hurt enemies with its thorns
+    and create nutrients! Wow!\r"
+  - "<color=#EFE213>UNCOMMON IMAGINARY PLANT</color>\r\nThis Lily Onion (Onily?)
+    looks like an onion, but poisons nearby enemies like a Lily!\r"
+  - "<color=#F5A820>RARE IMAGINARY PLANT</color>\r\nThis Lily Cactus (Cactily?) can
+    survive in the desert with its wide roots. It poisons plants that are nearby!\r"
+  - "<color=#F45688>EPIC IMAGINARY PLANT</color>\r\nThis Lily Fly Trap thrives in
+    the swamp and poisons enemies close to it!\r"
+  - '<color=#9D6DEC>APEX IMAGINARY PLANT</color>
+
+    This Lily Pitcher Plant (Pitchily?)
+    thrives in the swamp and poisons enemies close to it!
+
+'
+  - "<color=#F5A820>RARE IMAGINARY PLANT</color>\r\nThis Onion Cactus (Cactonion?)
+    can survive in the desert by storing water in itself. It is also stinky!\r"
+  - "<color=#F45688>EPIC IMAGINARY PLANT</color>\r\nThis Onion Fly Trap? thrives
+    in the swamp. It's very stinky!\r"
+  - "<color=#9D6DEC>APEX IMAGINARY PLANT</color>\r\nThis Onion Pitcher Plant (Pitchonion?)
+    thrives in the swamp. It is incredibly stinky!\r"
+  - '<color=#9D6DEC>APEX IMAGINARY PLANT</color>
+
+    This Cactus Fly Trap thrives
+    in the swamp. It is covered in spikes that damage nearby enemies!
+
+'
+  - "<color=#6FF5EE>LEGENDARY IMAGINARY PLANT</color>\r\nThis Cactus Pitcher Plant
+    (idk) thrives in the swamp. It is covered in spikes that damage nearby enemies
+    and can lure enemies in to digest them!\r"
+  - "<color=#EFE213>UNCOMMON CROSS</color>\r\nThis is just a pitcher plant, but it
+    is a little cooler!\r"
+--- !u!114 &7291675670333385718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7291675670333385719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c0331bbe18e44ec8b8964df7d24d6f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2954384914420593114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2954384914420593113}
+  - component: {fileID: 2954384914420593112}
+  m_Layer: 0
+  m_Name: PlantDictObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2954384914420593113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2954384914420593114}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.03743824, y: 0.5720875, z: -10.192766}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2954384914420593112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2954384914420593114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ef99a2367f4f64b95ac92a48a8b015, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Plants: []
+  keys:
+  - pea_plant
+  - lily_of_the_valley
+  - onion
+  - cactus
+  - venus_fly_trap
+  - pitcher
+  - lily_of_the_valley+pea_plant
+  - onion+pea_plant
+  - cactus+pea_plant
+  - lily_of_the_valley+onion
+  - cactus+lily_of_the_valley
+  - lily_of_the_valley+venus_fly_trap
+  - lily_of_the_valley+pitcher
+  - cactus+onion
+  - onion+venus_fly_trap
+  - onion+pitcher
+  - cactus+venus_fly_trap
+  - cactus+pitcher
+  - pitcher+venus_fly_trap
+  stinkCloud: {fileID: 7973330941728771083, guid: d085298ae44934e75a3943abd0557c60, type: 3}
+  poisonCloud: {fileID: 8684549874121478666, guid: 5478c631f9d704adab28b3d5467ddb13, type: 3}
+  newNames:
+  - Pea Plant
+  - Lily Of The Valley
+  - Onion
+  - Cactus
+  - Venus Fly Trap
+  - Pitcher Plant
+  - Plily
+  - Ponion
+  - Cactpea
+  - Onily
+  - Cactily
+  - Flily Trap
+  - Pitchily
+  - Cactonion
+  - Flonion Trap
+  - Pitchonion
+  - Flactus Trap
+  - Cacter Plant
+  - Pitcher (But Cooler)
+  pics:
+  - {fileID: 21300000, guid: 64a3655e7c9d44eb182eb722d4b76ef8, type: 3}
+  - {fileID: 21300000, guid: 69baf3e2584ff4619acb11d7fbce9fb7, type: 3}
+  - {fileID: 21300000, guid: f1bd0d7f6462640c5a7eecac309afbcf, type: 3}
+  - {fileID: 21300000, guid: 20197c32ef4de4c16bf312207cf19e58, type: 3}
+  - {fileID: 21300000, guid: 065c2233ab5a944df822bb06ea21fd50, type: 3}
+  - {fileID: 21300000, guid: 515ef1ad084f4407c9b14a8c2d20831f, type: 3}
+  - {fileID: 21300000, guid: e9a293296dfab46b08c170da001dc776, type: 3}
+  - {fileID: 21300000, guid: d4c7f02633226458dbeefc68af24e4fd, type: 3}
+  - {fileID: 21300000, guid: e98a1f51e0a59465c8c484e164d6e6f9, type: 3}
+  - {fileID: 21300000, guid: 3705068f6662e104a8d225dc24104a16, type: 3}
+  - {fileID: 21300000, guid: 69204e105283746699795eb771c78790, type: 3}
+  - {fileID: 21300000, guid: eb0776deb01d24765b7347850678a919, type: 3}
+  - {fileID: 21300000, guid: ad00723b88a674fde938ccccef7ae4aa, type: 3}
+  - {fileID: 21300000, guid: 9c929c814c89acb4ca48498a55ef570e, type: 3}
+  - {fileID: 21300000, guid: 78f43176202ea9b4e96b5890a0daff6c, type: 3}
+  - {fileID: 21300000, guid: 61a54eee5869b414b93fa3d5caab716d, type: 3}
+  - {fileID: 21300000, guid: ceae22fea0a0042d39135e75abd8c9f3, type: 3}
+  - {fileID: 21300000, guid: d4626dc5c1945466f8b61f21dd546b83, type: 3}
+  - {fileID: 21300000, guid: 515ef1ad084f4407c9b14a8c2d20831f, type: 3}
+  prefabs:
+  - {fileID: 6382305565349265185, guid: 86cff60449c704ca3b42a6978c6cc6ad, type: 3}
+  - {fileID: 6382305565349265185, guid: 706dbba40c88a2f4cad05a6c9e6c2327, type: 3}
+  - {fileID: 3853922267137864771, guid: 88cc9afd8d64b459c9064054de7bf937, type: 3}
+  - {fileID: 7484997686844015378, guid: fe19fbfda7e1a4c9a80e6b9353047e7f, type: 3}
+  - {fileID: 2774171033706708154, guid: b950e555027408f4a822454664c11ca8, type: 3}
+  - {fileID: 2232469505721221760, guid: d7e2095622132447eb7b03c9ac2348b4, type: 3}
+  - {fileID: 5378502896653403232, guid: 1eda2f93aa51e48448e6308985618706, type: 3}
+  - {fileID: 845267607530911511, guid: 90b06cd5af623463e9e3c3f7852ad5af, type: 3}
+  - {fileID: 18571834759849805, guid: 78b839ff3684f4915a886cbab1ccb89b, type: 3}
+  - {fileID: 6389750131397918664, guid: e6ffd7c4a9964414fa87d695c1589ec3, type: 3}
+  - {fileID: 274569493605962905, guid: 27c613240fc6b49fbb3d23350384dd29, type: 3}
+  - {fileID: 8625215731722144267, guid: 6741ffa54fa18447f9115a3456edf6a0, type: 3}
+  - {fileID: 1950386661467992293, guid: e5571b79ba00d4eacab4519939879655, type: 3}
+  - {fileID: 6720643834000581459, guid: 31c061cab42094c6d8748ee759de15cc, type: 3}
+  - {fileID: 8828118613879004780, guid: 1a40bdeb57233401fb4434c4541738f4, type: 3}
+  - {fileID: 6048280700389928921, guid: d48676b44124e4568adc1abf3114f66b, type: 3}
+  - {fileID: 8165973032204115089, guid: c6b5e48f64f704f979747a1369c813b2, type: 3}
+  - {fileID: 3311164755375231727, guid: 7e93a4b9f8f8f4b86ac44ee6afd1e61e, type: 3}
+  - {fileID: 2232469505721221760, guid: d7e2095622132447eb7b03c9ac2348b4, type: 3}
+  descriptions:
+  - "COMMON NATURAL PLANT\r\nThe Pea takes nutrients from the soil that can be used
+    to buy more plants!\r"
+  - "COMMON NATURAL PLANT\r\nThe Lily of the Valley inflicts enemies with a powerful
+    poison. Dont touch it!\r"
+  - "COMMON NATURAL PLANT\r\nThe Onion is unappealing to plants. It's vapors will
+    make you cry!\r"
+  - "COMMON NATURAL PLANT\r\nThe Cactus can survive in the desert by storing water
+    inside itself. It hurts enemies close to it with its thorns!\r"
+  - '<color=#FFF333>UNCOMMON NATURAL PLANT</color>
+
+    The Venus Fly Trap thrives
+    in the swamp and eats enemies to make more nutrients. Gross!
+
+'
+  - "<color=#FFF333>UNCOMMON NATURAL PLANT</color>\r\nThe Pitcher Plant thrives in
+    the swamp and lures enemies into its flowers and digests them to make more nutrients.
+    Weird!\r"
+  - '<color=#EFE213>UNCOMMON IMAGINARY PLANT</color>
+
+    This Pea Lily (Pily?) has
+    the poisonous flowers of the Lily and can create nutrients from the soil like
+    the Pea.
+
+'
+  - '<color=#EFE213>UNCOMMON IMAGINARY PLANT</color>
+
+    This Pea Onion (Ponion?)
+    has the Onions stinky outside but roots that create nutrients like the Pea Plant!
+
+'
+  - "<color=#F5A820>RARE IMAGINARY PLANT</color>\r\nThis Pea Cactus (Cactpea?) can
+    survive in the desert by storing water in itself and hurt enemies with its thorns
+    and create nutrients! Wow!\r"
+  - "<color=#EFE213>UNCOMMON IMAGINARY PLANT</color>\r\nThis Lily Onion (Onily?)
+    looks like an onion, but poisons nearby enemies like a Lily!\r"
+  - "<color=#F5A820>RARE IMAGINARY PLANT</color>\r\nThis Lily Cactus (Cactily?) can
+    survive in the desert with its wide roots. It poisons plants that are nearby!\r"
+  - "<color=#F45688>EPIC IMAGINARY PLANT</color>\r\nThis Lily Fly Trap (Flily Trap?)
+    thrives in the swamp and poisons enemies close to it!\r"
+  - '<color=#9D6DEC>APEX IMAGINARY PLANT</color>
+
+    This Lily Pitcher Plant (Pitchily?)
+    thrives in the swamp and poisons enemies close to it!
+
+'
+  - "<color=#F5A820>RARE IMAGINARY PLANT</color>\r\nThis Onion Cactus (Cactonion?)
+    can survive in the desert by storing water in itself. It is also stinky!\r"
+  - "<color=#F45688>EPIC IMAGINARY PLANT</color>\r\nThis Onion Fly Trap (Flonion
+    Trap?) thrives in the swamp. It's very stinky!\r"
+  - "<color=#9D6DEC>APEX IMAGINARY PLANT</color>\r\nThis Onion Pitcher Plant (Pitchonion?)
+    thrives in the swamp. It is incredibly stinky!\r"
+  - '<color=#9D6DEC>APEX IMAGINARY PLANT</color>
+
+    This Cactus Fly Trap (Flactus
+    Trap?) thrives in the swamp. It is covered in spikes that damage nearby enemies!
+
+'
+  - "<color=#6FF5EE>LEGENDARY IMAGINARY PLANT</color>\r\nThis Cactus Pitcher Plant
+    (Cacter Plant?) thrives in the swamp. It is covered in spikes that damage nearby
+    enemies and can lure enemies in to digest them!\r"
+  - "<color=#EFE213>UNCOMMON CROSS</color>\r\nThis is just a pitcher plant, but it
+    is a little cooler!\r"
+  allPremadePlants:
+  - {fileID: 11400000, guid: 5b1492afc5ec2418489c99ea6f08c90d, type: 2}
+  - {fileID: 11400000, guid: 41ef99a60135f4dfbb0bdc471d4cd4e9, type: 2}
+  - {fileID: 11400000, guid: f48de62a8d8d54a389a02ca3d45971d7, type: 2}
+  - {fileID: 11400000, guid: d312a953a10ee44a8945693486373534, type: 2}
+  - {fileID: 11400000, guid: ef7488bc109124580b7a03642a44297f, type: 2}
+  - {fileID: 11400000, guid: bfda9b6f383f0c242a4e1d0857d366a0, type: 2}
+  - {fileID: 11400000, guid: 053ab4ee22b3041f0a1fcd2f615dacd0, type: 2}
+  startingPlants:
+  - Lily of the Valley
+  - Onion
+  - Pea Plant
+  - Magic Flower

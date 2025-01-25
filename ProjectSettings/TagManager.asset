@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Forest
+  - Swamp
+  - Desert
+  - Enemy
+  - Popup
+  - Plant
+  - Top
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PlaceableTile
+  - Plants
+  - Templates
+  - Hitbox
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Plants
+    uniqueID: 3582520607
+    locked: 0
+  - name: PlantUI 1
+    uniqueID: 3894811953
+    locked: 0
+  - name: PlantUI 2
+    uniqueID: 3520965987
+    locked: 0
+  - name: MainCanvasUI
+    uniqueID: 1465280975
+    locked: 0
